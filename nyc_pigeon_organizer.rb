@@ -12,8 +12,8 @@ def nyc_pigeon_organizer(data)
         end
         final_array[name][key] >> inner_key
   binding.pry
-end
-  result
+      end
+    end
   end
   binding.pry
 end
