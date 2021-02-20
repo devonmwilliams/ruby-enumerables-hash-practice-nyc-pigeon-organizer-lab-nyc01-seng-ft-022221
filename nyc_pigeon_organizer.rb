@@ -1,6 +1,5 @@
 binding 'pry'
 
-def nyc_pigeon_organizer(pigeon_data)
   # write your code here!
   pigeon_data = {
     :color => {
@@ -20,10 +19,10 @@ def nyc_pigeon_organizer(pigeon_data)
       "City Hall" => ["Andrew"]
     }
   }
-
+def nyc_pigeon_organizer(pigeon_data)
 data.each_with_object ({}) do |(key, value), final_array|
   binding.pry
-final_array
-end
-binding.pry
+  final_array
+  end
+  binding.pry
 end
