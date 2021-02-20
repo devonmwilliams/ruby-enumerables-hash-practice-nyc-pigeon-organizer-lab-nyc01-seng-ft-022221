@@ -1,4 +1,4 @@
-binding 'pry'
+require 'pry'
 
   # write your code here!
   pigeon_data = {
