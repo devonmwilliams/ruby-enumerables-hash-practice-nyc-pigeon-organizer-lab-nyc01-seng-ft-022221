@@ -2,7 +2,7 @@ binding 'pry'
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  pigeon_data = {
+    data = {
     :color => {
       :purple => ["Theo", "Peter Jr.", "Lucky"],
       :grey => ["Theo", "Peter Jr.", "Ms. K"],
